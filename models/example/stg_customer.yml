@@ -1,0 +1,8 @@
+version: 2
+
+sources: 
+  - name: raw_stg
+    database: SNOWFLAKE_DB
+    schema: DEV_DBT_TEST
+    tables:
+      - name: customer
